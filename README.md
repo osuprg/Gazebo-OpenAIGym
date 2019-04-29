@@ -16,5 +16,10 @@ Instructions - 1) Clone the repository
                2) For intializing an environment, pass the location of the launch file when creating the environment. We 
                   include an example world file in the /worlds directory.
                3) Run rllearn.py with the required dependencies to begin learning on your gazebo world. Change the reward                         functions in the TurtlebotGym.py file to suit your needs. 
+               
+
+<b>References</b>
+[1] Dueling Network Architectures for Deep Reinforcement Learning, Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas
+[2] Gym-Gazebo, https://github.com/erlerobot/gym-gazebo
 
 
