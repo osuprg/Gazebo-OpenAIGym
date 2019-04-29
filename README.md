@@ -11,11 +11,14 @@ This has been tested with ROS Kinetic, Ubuntu 16.04.
 For the DeepRL agent, we use PyTorch 1.0.1. 
 
 
+<p align="center"> 
+   <b>Instructions</b>
+   </p>
+[1] Clone the repository
 
-Instructions - 1) Clone the repository
-               2) For intializing an environment, pass the location of the launch file when creating the environment. We 
-                  include an example world file in the /worlds directory.
-               3) Run rllearn.py with the required dependencies to begin learning on your gazebo world. Change the reward                         functions in the TurtlebotGym.py file to suit your needs. 
+[2] For intializing an environment, pass the location of the launch file when creating the environment. We include an example world file in the /worlds directory.
+
+[3] Run rllearn.py with the required dependencies to begin learning on your gazebo world. Change the reward                    functions in the TurtlebotGym.py file to suit your needs. 
                
 <p align="center"> 
    <b>References</b>
